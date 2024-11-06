@@ -1,0 +1,1 @@
+A chocolate factory is packing chocolates into the packets. Then the chocolate packets have the array of N numbers of integer values. The take is to find the empty packets of chocolate and push it to the end of the conveyor belt. Also sort the array and remove the duplicate values.
