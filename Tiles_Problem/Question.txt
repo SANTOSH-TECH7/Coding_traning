@@ -1,0 +1,15 @@
+There are n-tiles(numbered from 0 to n-1). Each tile is made of the two squares. That are closed either red (Letter "R") and green(letter "G")
+A title is described with two characters string representing the respective colours of the left and right squares. The tiles cannot be rotated
+(which means "RG" and "GR" tiles are different). Two tiles can be placed next to each other if the color of their adjacent square is the 
+same. What is the length of the longest possible squence that can be created using the provided tiles.
+
+Write a function:
+  int solution(char*A[], int N);
+
+that given the array A of N strings reperesenting tiles, return the maximum number of tiles that can be arranged in the sequence.
+
+Ex: A=["GR","RR", "GR", "RG", "GR", "GR","RR"]
+
+to get the longest sequence we can select the tiles 0,2,3,4,5 and arrange in the sequence of 
+
+   OUTPUT:    GR-RR-RG-GR-RR

@@ -1,0 +1,10 @@
+Given two arrays num1 and num2 containing integers return an array of the intersection of num1 and num2. In the result array each integer should be unique 
+and elements in order.
+
+
+i/p: num1[]=[3,1,1,2,6,7,8]
+     num2[]=[2,3,4,5,7,9]
+
+o/p:[2,3,7]
+
+(both the arrays should be in same length)
